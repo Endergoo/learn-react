@@ -1,11 +1,11 @@
 import "./../css/Home.css";
 
-const Home = () => {
+const Home = () => 
+{
     return (
-        <div id="home">
-            <h1>I love home</h1>
-            <h2>Home is for the heart</h2>
-        </div>
+        <main id="home" className="main-content">
+            <h1>Home</h1>
+        </main>
     );
 };
 
